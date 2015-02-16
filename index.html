@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+    <title>AngularJS: UI-Router Quick Start</title>
+</head>
+
+<body>
+
+<a class="brand" href="#">Quick Start</a>
+<ul class="nav">
+    <li><a ui-sref="view1">Route 1</a></li>
+    <li><a ui-sref="view2">Route 2</a></li>
+</ul>
+
+<div ui-view="viewTop"></div>
+<div ui-view="viewBottom"></div>
+
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>
